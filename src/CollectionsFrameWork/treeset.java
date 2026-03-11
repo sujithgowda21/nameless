@@ -1,0 +1,25 @@
+package CollectionsFrameWork;
+
+import java.util.TreeSet;
+
+public class treeset {
+    public static void main(String[] args) {
+        TreeSet<Integer> set=new TreeSet<>();
+
+        //add
+        set.add(30);
+        set.add(10);
+        set.add(20);
+        System.out.println(set);
+
+        //first()
+        System.out.println(set.first());
+
+        //last()
+        System.out.println(set.last());
+
+        //remove
+        set.remove(30);
+        System.out.println(set);
+    }
+}

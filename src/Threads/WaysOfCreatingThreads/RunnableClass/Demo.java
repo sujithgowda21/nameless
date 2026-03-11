@@ -15,6 +15,7 @@ public class Demo {
         Thread t1=new Thread(obj);
         t1.start();
 
+
         for (int i=0; i<=5; i++){
             System.out.println("Main Thread is Running... ");
         }
